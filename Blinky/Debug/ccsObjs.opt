@@ -1,0 +1,1 @@
+"./lm3s6965_startup_ccs.obj" "./main.obj" "../lm3s6965.cmd" -llibc.a -l"D:/zzzProgramming/ccs-workspaces/ccsv6_2/lib/driverlib/ccs-cm3/Debug/driverlib-cm3.lib" 
