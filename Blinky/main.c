@@ -1,6 +1,5 @@
 #include "inc/hw_memmap.h"
 #include "inc/hw_types.h"
-
 #include "driverlib/gpio.h"
 #include "driverlib/sysctl.h"
 
@@ -22,12 +21,12 @@ int main(void)
         // Set the GPIO high.
         GPIOPinWrite(GPIO_PORTF_BASE, GPIO_PIN_0, 1);
         // Delay for a while.
-        SysCtlDelay(500000);
+        SysCtlDelay(1000000);
 
         // Set the GPIO low.
         GPIOPinWrite(GPIO_PORTF_BASE, GPIO_PIN_0, 0);
 
         // Delay for a while.
-        SysCtlDelay(5000000);
+        SysCtlDelay(1000000);
     }
 }

@@ -4,5 +4,5 @@
 
 USER_OBJS :=
 
-LIBS := -llibc.a -l"D:/zzzProgramming/ccs-workspaces/ccsv6_2/lib/driverlib/ccs-cm3/Debug/driverlib-cm3.lib"
+LIBS := -llibc.a -l"D:/zzzProgramming/ccs-workspaces/ccsv6_2/driverlib/ccs-cm3/Debug/driverlib-cm3.lib"
 

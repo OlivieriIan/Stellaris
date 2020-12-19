@@ -15,7 +15,7 @@ ORDERED_OBJS += \
 "../lm3s6965.cmd" \
 $(GEN_CMDS__FLAG) \
 -llibc.a \
--l"D:/zzzProgramming/ccs-workspaces/ccsv6_2/lib/driverlib/ccs-cm3/Debug/driverlib-cm3.lib" \
+-l"D:/zzzProgramming/ccs-workspaces/ccsv6_2/driverlib/ccs-cm3/Debug/driverlib-cm3.lib" \
 
 -include ../makefile.init
 
